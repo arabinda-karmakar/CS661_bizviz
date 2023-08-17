@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.kcontainer {
+  display: flex;
+  padding: 20px;
+}
+
+.home {
+  width: 75%;
+  padding: 10px;
+  background-color: aliceblue;
+}
+
+.chart-container {
+  width: 75%;
+  padding: 10px;
+  background-color: aliceblue;
+  /* border: 1px solid black; */
+}
+
+.user-input {
+  width: 25%;
+  padding: 20px;
+  background-color: rgb(255, 240, 240);
+  /* border: 1px solid black; */
+}
+
+.already {
+  display: flex;
+}
+
+.labels {
+  display: flex;
+  justify-content: center;
+  gap: 140px;
+  font-size: 12px;
+}
+
+#task3{
+  height: 100vh;
+  width: 100%; 
+}
+
+.box-container {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: auto auto auto;
+  margin: 20px;
+}
+
+.box {
+  width: 200px;
+  height: 150px;
+  background-color: white;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 20px;
+}
+
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.carousel-item {
+  flex: 0 0 100%; /* set width of carousel items */
+}
+
+.carousel-prev-button,
+.carousel-next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.carousel-prev-button {
+  left: 0;
+}
+
+.carousel-next-button {
+  right: 0;
+}
+
+#line{
+  height: 90vh;
+  width: 100%;
+
+}
+
+canvas {
+  width: 2060px;
+}
